@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1E7D0CE15297AFC00417E16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0CD15297AFC00417E16 /* UIKit.framework */; };
+		F1E7D0D015297AFC00417E16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0CF15297AFC00417E16 /* Foundation.framework */; };
+		F1E7D0D215297AFC00417E16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0D115297AFC00417E16 /* CoreGraphics.framework */; };
+		F1E7D0D815297AFC00417E16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1E7D0D615297AFC00417E16 /* InfoPlist.strings */; };
+		F1E7D0DA15297AFC00417E16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E7D0D915297AFC00417E16 /* main.m */; };
+		F1E7D0DE15297AFC00417E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E7D0DD15297AFC00417E16 /* AppDelegate.m */; };
+		F1E7D0E115297AFC00417E16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E7D0E015297AFC00417E16 /* ViewController.m */; };
+		F1E7D0E415297AFC00417E16 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1E7D0E215297AFC00417E16 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1E7D0C915297AFC00417E16 /* AVFoundation-VideoManipulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVFoundation-VideoManipulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E7D0CD15297AFC00417E16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1E7D0CF15297AFC00417E16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1E7D0D115297AFC00417E16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1E7D0D515297AFC00417E16 /* AVFoundation-VideoManipulation-Info.plist */ = {isa = PBXFileReference; path = "AVFoundation-VideoManipulation-Info.plist"; sourceTree = "<group>"; };
+		F1E7D0D715297AFC00417E16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1E7D0D915297AFC00417E16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1E7D0DB15297AFC00417E16 /* AVFoundation-VideoManipulation-Prefix.pch */ = {isa = PBXFileReference; path = "AVFoundation-VideoManipulation-Prefix.pch"; sourceTree = "<group>"; };
+		F1E7D0DC15297AFC00417E16 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1E7D0DD15297AFC00417E16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1E7D0DF15297AFC00417E16 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F1E7D0E015297AFC00417E16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1E7D0E315297AFC00417E16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E7D0C615297AFC00417E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E7D0CE15297AFC00417E16 /* UIKit.framework in Frameworks */,
+				F1E7D0D015297AFC00417E16 /* Foundation.framework in Frameworks */,
+				F1E7D0D215297AFC00417E16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1E7D0BE15297AFC00417E16 = {
+			isa = PBXGroup;
+			children = (
+				F1E7D0D315297AFC00417E16 /* AVFoundation-VideoManipulation */,
+				F1E7D0CC15297AFC00417E16 /* Frameworks */,
+				F1E7D0CA15297AFC00417E16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E7D0CA15297AFC00417E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7D0C915297AFC00417E16 /* AVFoundation-VideoManipulation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E7D0CC15297AFC00417E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7D0CD15297AFC00417E16 /* UIKit.framework */,
+				F1E7D0CF15297AFC00417E16 /* Foundation.framework */,
+				F1E7D0D115297AFC00417E16 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1E7D0D315297AFC00417E16 /* AVFoundation-VideoManipulation */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7D0DC15297AFC00417E16 /* AppDelegate.h */,
+				F1E7D0DD15297AFC00417E16 /* AppDelegate.m */,
+				F1E7D0DF15297AFC00417E16 /* ViewController.h */,
+				F1E7D0E015297AFC00417E16 /* ViewController.m */,
+				F1E7D0E215297AFC00417E16 /* ViewController.xib */,
+				F1E7D0D415297AFC00417E16 /* Supporting Files */,
+			);
+			path = "AVFoundation-VideoManipulation";
+			sourceTree = "<group>";
+		};
+		F1E7D0D415297AFC00417E16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7D0D515297AFC00417E16 /* AVFoundation-VideoManipulation-Info.plist */,
+				F1E7D0D615297AFC00417E16 /* InfoPlist.strings */,
+				F1E7D0D915297AFC00417E16 /* main.m */,
+				F1E7D0DB15297AFC00417E16 /* AVFoundation-VideoManipulation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E7D0C815297AFC00417E16 /* AVFoundation-VideoManipulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E7D0E715297AFC00417E16 /* Build configuration list for PBXNativeTarget "AVFoundation-VideoManipulation" */;
+			buildPhases = (
+				F1E7D0C515297AFC00417E16 /* Sources */,
+				F1E7D0C615297AFC00417E16 /* Frameworks */,
+				F1E7D0C715297AFC00417E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVFoundation-VideoManipulation";
+			productName = "AVFoundation-VideoManipulation";
+			productReference = F1E7D0C915297AFC00417E16 /* AVFoundation-VideoManipulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E7D0C015297AFC00417E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = DataInvent;
+			};
+			buildConfigurationList = F1E7D0C315297AFC00417E16 /* Build configuration list for PBXProject "AVFoundation-VideoManipulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1E7D0BE15297AFC00417E16;
+			productRefGroup = F1E7D0CA15297AFC00417E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E7D0C815297AFC00417E16 /* AVFoundation-VideoManipulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E7D0C715297AFC00417E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E7D0D815297AFC00417E16 /* InfoPlist.strings in Resources */,
+				F1E7D0E415297AFC00417E16 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E7D0C515297AFC00417E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E7D0DA15297AFC00417E16 /* main.m in Sources */,
+				F1E7D0DE15297AFC00417E16 /* AppDelegate.m in Sources */,
+				F1E7D0E115297AFC00417E16 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1E7D0D615297AFC00417E16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E7D0D715297AFC00417E16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1E7D0E215297AFC00417E16 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E7D0E315297AFC00417E16 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1E7D0E515297AFC00417E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1E7D0E615297AFC00417E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E7D0E815297AFC00417E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVFoundation-VideoManipulation/AVFoundation-VideoManipulation-Prefix.pch";
+				INFOPLIST_FILE = "AVFoundation-VideoManipulation/AVFoundation-VideoManipulation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1E7D0E915297AFC00417E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVFoundation-VideoManipulation/AVFoundation-VideoManipulation-Prefix.pch";
+				INFOPLIST_FILE = "AVFoundation-VideoManipulation/AVFoundation-VideoManipulation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E7D0C315297AFC00417E16 /* Build configuration list for PBXProject "AVFoundation-VideoManipulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E7D0E515297AFC00417E16 /* Debug */,
+				F1E7D0E615297AFC00417E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E7D0E715297AFC00417E16 /* Build configuration list for PBXNativeTarget "AVFoundation-VideoManipulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E7D0E815297AFC00417E16 /* Debug */,
+				F1E7D0E915297AFC00417E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1E7D0C015297AFC00417E16 /* Project object */;
+}
