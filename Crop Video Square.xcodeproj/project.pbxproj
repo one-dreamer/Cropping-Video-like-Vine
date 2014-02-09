@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D781DEBC18A7199A0077E8BF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D781DEBB18A7199A0077E8BF /* CoreMedia.framework */; };
+		D781DEBE18A719E90077E8BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D781DEBD18A719E90077E8BF /* QuartzCore.framework */; };
+		D781DECB18A71F300077E8BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D781DEC618A71F300077E8BF /* AppDelegate.m */; };
+		D781DECC18A71F300077E8BF /* AVPlayerDemoPlaybackView.m in Sources */ = {isa = PBXBuildFile; fileRef = D781DEC818A71F300077E8BF /* AVPlayerDemoPlaybackView.m */; };
+		D781DECD18A71F300077E8BF /* Crop Video Square-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D781DEC918A71F300077E8BF /* Crop Video Square-Info.plist */; };
+		D781DED018A71F380077E8BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D781DECF18A71F380077E8BF /* ViewController.m */; };
+		D781DED218A71F3D0077E8BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D781DED118A71F3D0077E8BF /* main.m */; };
+		D781DED518A71F450077E8BF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D781DED318A71F450077E8BF /* ViewController.xib */; };
+		D781DED818A71F620077E8BF /* OriginalVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = D781DED718A71F620077E8BF /* OriginalVideo.mov */; };
+		D781DEDB18A71F840077E8BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D781DED918A71F840077E8BF /* InfoPlist.strings */; };
+		D781DEDD18A71F9A0077E8BF /* Crop Video Square-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D781DEDC18A71F9A0077E8BF /* Crop Video Square-Info.plist */; };
+		F1E7D0CE15297AFC00417E16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0CD15297AFC00417E16 /* UIKit.framework */; };
+		F1E7D0D015297AFC00417E16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0CF15297AFC00417E16 /* Foundation.framework */; };
+		F1E7D0D215297AFC00417E16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0D115297AFC00417E16 /* CoreGraphics.framework */; };
+		F1E7D0F815297B7A00417E16 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0F715297B7A00417E16 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D781DEBB18A7199A0077E8BF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D781DEBD18A719E90077E8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D781DEC518A71F300077E8BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Crop Video Square/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		D781DEC618A71F300077E8BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Crop Video Square/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		D781DEC718A71F300077E8BF /* AVPlayerDemoPlaybackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVPlayerDemoPlaybackView.h; path = "Crop Video Square/AVPlayerDemoPlaybackView.h"; sourceTree = SOURCE_ROOT; };
+		D781DEC818A71F300077E8BF /* AVPlayerDemoPlaybackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVPlayerDemoPlaybackView.m; path = "Crop Video Square/AVPlayerDemoPlaybackView.m"; sourceTree = SOURCE_ROOT; };
+		D781DEC918A71F300077E8BF /* Crop Video Square-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Crop Video Square-Info.plist"; path = "Crop Video Square/Crop Video Square-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D781DECA18A71F300077E8BF /* Crop Video Square-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Crop Video Square-Prefix.pch"; path = "Crop Video Square/Crop Video Square-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D781DECE18A71F380077E8BF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Crop Video Square/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		D781DECF18A71F380077E8BF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Crop Video Square/ViewController.m"; sourceTree = SOURCE_ROOT; };
+		D781DED118A71F3D0077E8BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Crop Video Square/main.m"; sourceTree = SOURCE_ROOT; };
+		D781DED418A71F450077E8BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Crop Video Square/en.lproj/ViewController.xib"; sourceTree = SOURCE_ROOT; };
+		D781DED718A71F620077E8BF /* OriginalVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = OriginalVideo.mov; path = "Crop Video Square/OriginalVideo.mov"; sourceTree = SOURCE_ROOT; };
+		D781DEDA18A71F840077E8BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Crop Video Square/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		D781DEDC18A71F9A0077E8BF /* Crop Video Square-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Crop Video Square-Info.plist"; path = "Crop Video Square/Crop Video Square-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F1E7D0C915297AFC00417E16 /* Crop Video Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crop Video Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E7D0CD15297AFC00417E16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1E7D0CF15297AFC00417E16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1E7D0D115297AFC00417E16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1E7D0F715297B7A00417E16 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E7D0C615297AFC00417E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D781DEBE18A719E90077E8BF /* QuartzCore.framework in Frameworks */,
+				D781DEBC18A7199A0077E8BF /* CoreMedia.framework in Frameworks */,
+				F1E7D0F815297B7A00417E16 /* AVFoundation.framework in Frameworks */,
+				F1E7D0CE15297AFC00417E16 /* UIKit.framework in Frameworks */,
+				F1E7D0D015297AFC00417E16 /* Foundation.framework in Frameworks */,
+				F1E7D0D215297AFC00417E16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1E7D0BE15297AFC00417E16 = {
+			isa = PBXGroup;
+			children = (
+				F1E7D0D315297AFC00417E16 /* AVFoundation-VideoManipulation */,
+				F1E7D0CC15297AFC00417E16 /* Frameworks */,
+				F1E7D0CA15297AFC00417E16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E7D0CA15297AFC00417E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7D0C915297AFC00417E16 /* Crop Video Square.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E7D0CC15297AFC00417E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7D0F715297B7A00417E16 /* AVFoundation.framework */,
+				D781DEBD18A719E90077E8BF /* QuartzCore.framework */,
+				D781DEBB18A7199A0077E8BF /* CoreMedia.framework */,
+				F1E7D0CD15297AFC00417E16 /* UIKit.framework */,
+				F1E7D0CF15297AFC00417E16 /* Foundation.framework */,
+				F1E7D0D115297AFC00417E16 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1E7D0D315297AFC00417E16 /* AVFoundation-VideoManipulation */ = {
+			isa = PBXGroup;
+			children = (
+				D781DEC518A71F300077E8BF /* AppDelegate.h */,
+				D781DEC618A71F300077E8BF /* AppDelegate.m */,
+				D781DECE18A71F380077E8BF /* ViewController.h */,
+				D781DECF18A71F380077E8BF /* ViewController.m */,
+				D781DEC718A71F300077E8BF /* AVPlayerDemoPlaybackView.h */,
+				D781DEC818A71F300077E8BF /* AVPlayerDemoPlaybackView.m */,
+				F1E7D0EA15297B1C00417E16 /* Resources */,
+				F1E7D0D415297AFC00417E16 /* Supporting Files */,
+			);
+			path = "AVFoundation-VideoManipulation";
+			sourceTree = "<group>";
+		};
+		F1E7D0D415297AFC00417E16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D781DED318A71F450077E8BF /* ViewController.xib */,
+				D781DED118A71F3D0077E8BF /* main.m */,
+				D781DED918A71F840077E8BF /* InfoPlist.strings */,
+				D781DEDC18A71F9A0077E8BF /* Crop Video Square-Info.plist */,
+				D781DEC918A71F300077E8BF /* Crop Video Square-Info.plist */,
+				D781DECA18A71F300077E8BF /* Crop Video Square-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1E7D0EA15297B1C00417E16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D781DED718A71F620077E8BF /* OriginalVideo.mov */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E7D0C815297AFC00417E16 /* Crop Video Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E7D0E715297AFC00417E16 /* Build configuration list for PBXNativeTarget "Crop Video Square" */;
+			buildPhases = (
+				F1E7D0C515297AFC00417E16 /* Sources */,
+				F1E7D0C615297AFC00417E16 /* Frameworks */,
+				F1E7D0C715297AFC00417E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crop Video Square";
+			productName = "AVFoundation-VideoManipulation";
+			productReference = F1E7D0C915297AFC00417E16 /* Crop Video Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E7D0C015297AFC00417E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = DataInvent;
+			};
+			buildConfigurationList = F1E7D0C315297AFC00417E16 /* Build configuration list for PBXProject "Crop Video Square" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1E7D0BE15297AFC00417E16;
+			productRefGroup = F1E7D0CA15297AFC00417E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E7D0C815297AFC00417E16 /* Crop Video Square */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E7D0C715297AFC00417E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D781DED518A71F450077E8BF /* ViewController.xib in Resources */,
+				D781DEDB18A71F840077E8BF /* InfoPlist.strings in Resources */,
+				D781DED818A71F620077E8BF /* OriginalVideo.mov in Resources */,
+				D781DECD18A71F300077E8BF /* Crop Video Square-Info.plist in Resources */,
+				D781DEDD18A71F9A0077E8BF /* Crop Video Square-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E7D0C515297AFC00417E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D781DED218A71F3D0077E8BF /* main.m in Sources */,
+				D781DECB18A71F300077E8BF /* AppDelegate.m in Sources */,
+				D781DED018A71F380077E8BF /* ViewController.m in Sources */,
+				D781DECC18A71F300077E8BF /* AVPlayerDemoPlaybackView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D781DED318A71F450077E8BF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D781DED418A71F450077E8BF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		D781DED918A71F840077E8BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D781DEDA18A71F840077E8BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1E7D0E515297AFC00417E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1E7D0E615297AFC00417E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E7D0E815297AFC00417E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crop Video Square/Crop Video Square-Prefix.pch";
+				INFOPLIST_FILE = "Crop Video Square/Crop Video Square-Info.plist";
+				PRODUCT_NAME = "Crop Video Square";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1E7D0E915297AFC00417E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crop Video Square/Crop Video Square-Prefix.pch";
+				INFOPLIST_FILE = "Crop Video Square/Crop Video Square-Info.plist";
+				PRODUCT_NAME = "Crop Video Square";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E7D0C315297AFC00417E16 /* Build configuration list for PBXProject "Crop Video Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E7D0E515297AFC00417E16 /* Debug */,
+				F1E7D0E615297AFC00417E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E7D0E715297AFC00417E16 /* Build configuration list for PBXNativeTarget "Crop Video Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E7D0E815297AFC00417E16 /* Debug */,
+				F1E7D0E915297AFC00417E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1E7D0C015297AFC00417E16 /* Project object */;
+}
