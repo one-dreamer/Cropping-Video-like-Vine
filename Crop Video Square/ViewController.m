@@ -45,17 +45,18 @@ static void *AVPlayerDemoPlaybackViewControllerStatusObservationContext = &AVPla
     
     AVMutableVideoCompositionLayerInstruction* transformer = [AVMutableVideoCompositionLayerInstruction videoCompositionLayerInstructionWithAssetTrack:clipVideoTrack];
     
-    //Here we shift the viewing square up to the TOP of the video so we only see the top
-    CGAffineTransform t1 = CGAffineTransformMakeTranslation(clipVideoTrack.naturalSize.height, 0 );
-    
-    //Use this code if you want the viewing square to be in the middle of the video
-    //CGAffineTransform t1 = CGAffineTransformMakeTranslation(clipVideoTrack.naturalSize.height, -(clipVideoTrack.naturalSize.width - clipVideoTrack.naturalSize.height) /2 );
-    
-    //Make sure the square is portrait
-    CGAffineTransform t2 = CGAffineTransformRotate(t1, M_PI_2);
-    
-    CGAffineTransform finalTransform = t2;
-    [transformer setTransform:finalTransform atTime:kCMTimeZero];
+//    //Here we shift the viewing square up to the TOP of the video so we only see the top
+//    CGAffineTransform t1 = CGAffineTransformMakeTranslation(clipVideoTrack.naturalSize.height, 0 );
+//    
+//    //Use this code if you want the viewing square to be in the middle of the video
+//    //CGAffineTransform t1 = CGAffineTransformMakeTranslation(clipVideoTrack.naturalSize.height, -(clipVideoTrack.naturalSize.width - clipVideoTrack.naturalSize.height) /2 );
+//    
+//    //Make sure the square is portrait
+//    CGAffineTransform t2 = CGAffineTransformRotate(t1, M_PI_2);
+//    
+//    CGAffineTransform finalTransform = t2;
+//    [transformer setTransform:finalTransform atTime:kCMTimeZero];
+    [transformer setTransform:clipVideoTrack.preferredTransform atTime:kCMTimeZero];
     
     //add the transformer layer instructions, then add to video composition
     instruction.layerInstructions = [NSArray arrayWithObject:transformer];
